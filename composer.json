@@ -1,0 +1,32 @@
+{
+    "name": "ring/kafka-wrapper",
+    "description": "Kafka Wrapper Package for out Internal Project",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ring\\KafkaWrapper\\": "src/",
+            "Ring\\KafkaWrapper\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ring\\KafkaWrapper\\KafkaWrapperServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Sushil Gupta",
+            "email": "sushil.gupta@kissht.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^4.18.0"
+    },
+
+}
