@@ -5,9 +5,9 @@
  * This file takes care of the conversation between PHP and Kafka
  */
 
-namespace KisshtEventProducer\Kafka\Services;
+namespace Kisshteventproducer\Kafka\Services;
 
-use KisshtEventProducer\Kafka\Handlers\KafkaProducerHandler;
+use Kisshteventproducer\Kafka\Handlers\KafkaProducerHandler;
 
 abstract class Kafka {
 

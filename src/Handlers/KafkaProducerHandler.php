@@ -5,7 +5,7 @@
  * @link https://github.com/anam-hossain/laravel-kafka-pub-example
  */
 
-namespace KisshtEventProducer\Kafka\Handlers;
+namespace Kisshteventproducer\Kafka\Handlers;
 
 use Exception;
 use RdKafka\Producer;

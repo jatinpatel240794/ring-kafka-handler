@@ -1,6 +1,11 @@
 {
     "name": "kisshteventproducer/kafka",
-    "description": "Kafka Event Producer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kisshteventproducer\\Kafka\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Nirmal Sharma",

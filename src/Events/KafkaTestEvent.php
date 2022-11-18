@@ -1,8 +1,8 @@
 <?php
-namespace KisshtEventProducer\Kafka\Events;
+namespace Kisshteventproducer\Kafka\Events;
 
 use App\Helpers\AppLogHelper as AppLog;
-use KisshtEventProducer\Kafka\Services\Kafka;
+use Kisshteventproducer\Kafka\Services\Kafka;
 
 abstract class KafkaTestEvent {
 

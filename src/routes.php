@@ -1,5 +1,5 @@
 <?php 
-use \KisshtEventProducer\Kafka\Events\KafkaTestEvent;
+use Kisshteventproducer\Kafka\Events\KafkaTestEvent;
 
 Route::get('kafka-test', function (){
 
