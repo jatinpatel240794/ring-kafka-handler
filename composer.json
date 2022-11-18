@@ -1,0 +1,11 @@
+{
+    "name": "kisshteventproducer/kafka",
+    "description": "Kafka Event Producer",
+    "authors": [
+        {
+            "name": "Nirmal Sharma",
+            "email": "nirmal.sharma@kissht.com"
+        }
+    ],
+    "require": {}
+}
